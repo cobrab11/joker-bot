@@ -1,0 +1,12 @@
+# general
+access_denied_msg = u'Нет доступа'
+syntax_error_msg = u'Неправильный синтаксис'
+not_implemented_msg = u'Ы... Пока не готово *PARDON*'
+not_moder_msg = u'Нет прав модератора'
+core_muc_only_msg = u'Команда доступна только в конференции'
+core_not_in_muc_msg = u'%s отсуствует в конференции'
+core_cmd_disabled_msg = u'Команда "%s" отключена в данной конференции'
+core_syntax_error_msg = u'Неправильный синтаксис'
+core_not_moder_msg = u'Нет прав модератора'
+core_access_denied_msg = u'Нет доступа'
+core_sent_private_msg = u'Отправлено в приват'
