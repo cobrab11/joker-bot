@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+import urllib2, re, urllib, string
+import html
+from xml.dom import minidom
+
+
+
+### LANGPACK ###
+
+
+################
+
+site = './docs/bash.org.ru.html'
+
+def handler_web_get(t, s, p):
+ data = file_read(site)
+ html.feed(data)
+
+
+register_command_handler(handler_web_get, u'.веб', [], u'', u'', 1, True)
