@@ -1,0 +1,1 @@
+Jabber Bot written in Python using XMPPPY (based on Talisman)
